@@ -40,9 +40,9 @@ h2{
 }
 
 section{
-    border: 1px solid rgb(189,161,154);
+    border: 1px solid rgb(243, 223, 218);
     border-top: 4px solid rgb(189,161,154);
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 2px 2px;
     margin: 40px 0px;
     padding: 10px;
 

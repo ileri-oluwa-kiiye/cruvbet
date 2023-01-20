@@ -14,10 +14,13 @@
     font-family: "Neuton", sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
 main{
     background-color: white;
     box-shadow:  34px 34px 68px #c6c6c6,
-             -34px -34px 68px #ffffff;
+             -34px -34px 68px #dcdcdc;
     padding: 5%;
     max-width: 1000px;
     margin: auto;
@@ -82,6 +85,18 @@ footer{
     text-align: center;
     padding: 30px 10px;
 }
+
+
+.icons{
+    width: fit-content;
+    margin: auto;
+}
+
+.icons img{
+    max-width: 30px;
+    margin: 15px;
+}
+
 
 @media screen  and (max-width:700px){
     h1{

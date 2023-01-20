@@ -19,6 +19,8 @@ main{
     box-shadow:  34px 34px 68px #c6c6c6,
              -34px -34px 68px #ffffff;
     padding: 5%;
+    max-width: 1000px;
+    margin: auto;
 }
 
 h1{
@@ -45,13 +47,41 @@ section{
     border-radius: 8px 8px 2px 2px;
     margin: 40px 0px;
     padding: 10px;
+    width: 250px;
+    max-width: 70vw;
 
 
 }
 
+.gold{
+    margin-left: 200px;
+}
+
+.sections{
+    width: max-content;
+    margin: auto;
+    padding-right: 10%;
+}
 
 
+aside, footer{
+    width: fit-content;
+    margin: auto;
+}
 
+
+aside{
+    font-size: 1.1em;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    font-size: 1.5em;
+    color: rgb(117,117,117);
+    text-align: center;
+    padding: 30px 10px;
+}
 
 @media screen  and (max-width:700px){
     h1{
@@ -60,5 +90,8 @@ section{
     h2{
         font-size: 23px;
         text-align: center;
+    }
+    .gold{
+        margin-left: 0px;
     }
 }

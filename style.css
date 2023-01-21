@@ -4,11 +4,11 @@
 }
 
 :root{
-    --pink: rgb(123, 68, 182);
-    --purple: rgb(179, 43, 38);
+    --purple: rgb(35, 47, 188);
+    --pink: rgb(62, 116, 191);
 }
 .all{
-    background:linear-gradient(90deg, rgb(249,249,249) 0%, rgb(210,210,210) 39.58%, rgb(250,250,250) 100%);;
+    background-color: rgb(212, 212, 212);
     min-height: 100vh;
     padding: 5%;
     font-family: "Neuton", sans-serif;
@@ -19,8 +19,8 @@ a{
 }
 main{
     background-color: white;
-    box-shadow:  34px 34px 68px #c6c6c6,
-             -34px -34px 68px #dcdcdc;
+    box-shadow:  14px 14px 28px #c6c6c6,
+             -14px -14px 28px #dcdcdc;
     padding: 5%;
     max-width: 1000px;
     margin: auto;
@@ -45,8 +45,8 @@ h2{
 }
 
 section{
-    border: 1px solid rgb(243, 223, 218);
-    border-top: 4px solid rgb(189,161,154);
+    border: 1px solid rgb(193, 186, 215);
+    border-top: 4px solid rgb(54, 69, 146);
     border-radius: 8px 8px 2px 2px;
     margin: 40px 0px;
     padding: 10px;
@@ -93,7 +93,8 @@ footer{
 }
 
 .icons img{
-    max-width: 30px;
+    width: 30px;
+    height: 30px;
     margin: 15px;
 }
 
@@ -108,5 +109,11 @@ footer{
     }
     .gold{
         margin-left: 0px;
+    }
+
+    .icons img{
+        width: 23px;
+        height: 23px;
+        margin: 15px;
     }
 }

@@ -8,7 +8,6 @@
     --pink: rgb(62, 116, 191);
 }
 .all{
-    background:linear-gradient(90deg, rgb(193, 186, 228) 0%, rgb(204, 195, 219) 39.58%, rgb(198, 178, 248) 100%);
     background-color: rgb(212, 212, 212);
     min-height: 100vh;
     padding: 5%;
